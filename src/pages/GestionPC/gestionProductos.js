@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Modal, ModalBody, ModalFooter} from 'reactstrap';
 import axios from 'axios';
 import '../../css/ProductoViewModal.css';
-const url = 'https://fast-shelf-83696.herokuapp.com';
+const url = 'http://localhost:8080';
 const ISLOGGET = localStorage.getItem('token');
 initAxiosInterceptor();
 class gestionProductos extends React.Component {

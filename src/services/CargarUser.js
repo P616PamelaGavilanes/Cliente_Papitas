@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Spinner } from "reactstrap";
 import { getToken } from "./auth-helpers";
-const  URL_GENERAL = 'https://fast-shelf-83696.herokuapp.com/'
+const  URL_GENERAL = 'http://localhost:8080/'
 //El archivo contiene funciones publicas, pero seran llamadas en base a la authenticacion
 export async function LoadUser(locate, request,locatenotoken){//locate: url, request: url a una determinada api, locatenotoken:url 
     if (!getToken()) {// Accion si no tiene token 

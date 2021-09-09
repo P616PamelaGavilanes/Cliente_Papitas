@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Pdf from 'react-to-pdf'
 import '../../css/estiloPdf.css'
 const ref = React.createRef();
-const url = 'https://fast-shelf-83696.herokuapp.com'
+const url = 'http://localhost:8080'
 const ISLOGGET = localStorage.getItem('token');// obtencion de tokens 
 initAxiosInterceptor();//manejo de headers 
 class reporteUsuarios extends React.Component {

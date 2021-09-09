@@ -8,7 +8,7 @@ import { TYPES } from '../actions/shoppingActions';
 import Titulo from '../Navbar/titulo';
 import Cookies from 'universal-cookie/es6';
 const cookies = new Cookies();
-const url = 'https://fast-shelf-83696.herokuapp.com/';
+const url = 'http://localhost:8080/';
 class Home extends React.Component {
     constructor ( ){
         super();

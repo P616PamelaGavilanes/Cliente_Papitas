@@ -4,8 +4,8 @@ import '../css/UserRegistrer.css';
 import axios from "axios";
 import Navbar from '../Navbar/navbar';
 const ISLOGGET = localStorage.getItem('token');
-//const url = 'https://fast-shelf-83696.herokuapp.com/testing'
-const url = 'https://fast-shelf-83696.herokuapp.com/register'
+//const url = 'http://localhost:8080/testing'
+const url = 'http://localhost:8080/register'
 class UserRegister extends React.Component {
     constructor ( ){
         super();

@@ -9,7 +9,7 @@ import Pdf from 'react-to-pdf'
 import '../../css/estiloPdf.css'
 const ISLOGGET = localStorage.getItem('token');
 const ref = React.createRef();// brinda un nombre para reverenciar un elemendo en html
-const url = 'https://fast-shelf-83696.herokuapp.com'
+const url = 'http://localhost:8080'
 initAxiosInterceptor();// maneja los headers 
 class reporteCaducado extends React.Component {
     constructor ( ){

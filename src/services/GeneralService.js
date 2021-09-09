@@ -1,6 +1,6 @@
 import axios from 'axios';
 import jwt from 'jwt-decode';
-const API_URL = 'https://fast-shelf-83696.herokuapp.com';
+const API_URL = 'http://localhost:8080';
 const REACT_URL = 'http://localhost:3000/';
 class GeneralService {
     getUserToken(user) {

@@ -8,7 +8,7 @@ import {initAxiosInterceptor } from '../services/auth-helpers';
 import { RealizarOrden, RealizarDeatalle } from '../services/CargarUser';
 import {reducerDeteteCart } from '../reducers/shoppingReducer';
 import { TYPES } from '../actions/shoppingActions';
-const url = 'https://fast-shelf-83696.herokuapp.com/'
+const url = 'http://localhost:8080/'
 initAxiosInterceptor();
 class Carrito extends React.Component {
     constructor ( ){

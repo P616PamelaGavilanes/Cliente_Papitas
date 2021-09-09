@@ -8,7 +8,7 @@ import Pdf from 'react-to-pdf'
 import '../../css/estiloPdf.css'
 const ref = React.createRef();
 const ISLOGGET = localStorage.getItem('token');
-const url = 'https://fast-shelf-83696.herokuapp.com'
+const url = 'http://localhost:8080'
 initAxiosInterceptor();
 class reporteInventario extends React.Component {
     constructor ( ){

@@ -9,7 +9,7 @@ import { initAxiosInterceptor } from '../../services/auth-helpers';
 import { decodeToken } from '../../services/IdentificarUser';
 const ISLOGGET = localStorage.getItem('token');
 
-const url1 = 'https://fast-shelf-83696.herokuapp.com';
+const url1 = 'http://localhost:8080';
 initAxiosInterceptor();
 class Categorias extends React.Component {
     constructor ( ){

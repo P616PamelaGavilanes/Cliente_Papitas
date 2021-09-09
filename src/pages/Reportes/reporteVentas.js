@@ -9,7 +9,7 @@ import '../../css/estiloPdf.css'
 import Moment from 'moment';
 const ref = React.createRef();
 const ISLOGGET = localStorage.getItem('token');
-const url='https://fast-shelf-83696.herokuapp.com';
+const url='http://localhost:8080';
 initAxiosInterceptor();
 class reporteVentas extends React.Component {
     constructor ( ){
